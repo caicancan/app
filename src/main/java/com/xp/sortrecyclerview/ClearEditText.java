@@ -31,7 +31,8 @@ public class ClearEditText extends EditText implements
     }
     
     
-    private void init() { 
+    private void init() {
+        //获取TextView的四周的图片左上右下
     	mClearDrawable = getCompoundDrawables()[2];
         if (mClearDrawable == null) { 
         	mClearDrawable = getResources() 
